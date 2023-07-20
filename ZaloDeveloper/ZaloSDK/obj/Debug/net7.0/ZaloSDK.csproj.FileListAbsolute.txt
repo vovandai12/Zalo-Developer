@@ -1,0 +1,12 @@
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\bin\Debug\net7.0\ZaloSDK.deps.json
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\bin\Debug\net7.0\ZaloSDK.dll
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\bin\Debug\net7.0\ZaloSDK.pdb
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ZaloSDK.csproj.AssemblyReference.cache
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ZaloSDK.GeneratedMSBuildEditorConfig.editorconfig
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ZaloSDK.AssemblyInfoInputs.cache
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ZaloSDK.AssemblyInfo.cs
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ZaloSDK.csproj.CoreCompileInputs.cache
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ZaloSDK.dll
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\refint\ZaloSDK.dll
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ZaloSDK.pdb
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\obj\Debug\net7.0\ref\ZaloSDK.dll

@@ -1,4 +1,7 @@
-﻿namespace ZaloSDK.Config
+﻿using System.Net;
+using System.Runtime.CompilerServices;
+
+namespace ZaloSDK.Config
 {
     public class APIConfig
     {

@@ -10,7 +10,7 @@ namespace ZaloSDK.Base
 
         public bool isDebug = false;
 
-        protected string sendHttpGetRequest(string endpoint, Dictionary<string, dynamic> param, Dictionary<string, string> header)
+        protected string sendHttpGetRequest(string endpoint, Dictionary<string, dynamic> param, Dictionary<string, string> header, Dictionary<string, string>? headerCookie = null)
         {
             UriBuilder builder = new UriBuilder(endpoint);
             var query = HttpUtility.ParseQueryString(builder.Query);

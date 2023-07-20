@@ -4,6 +4,8 @@ namespace ZaloSDK.Endpoint
 {
     public class ZaloEndpoint
     {
+
+
         //  OA API ENDPOINT
         public static string GET_TAGS_ENDPOINT = getEndpoint("tag/gettagsofoa");
         public static string TAG_FOLLOWER_ENDPOINT = getEndpoint("tag/tagfollower");
