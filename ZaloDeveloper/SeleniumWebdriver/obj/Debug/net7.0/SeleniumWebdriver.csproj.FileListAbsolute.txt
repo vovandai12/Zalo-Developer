@@ -1,0 +1,15 @@
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\bin\Debug\net7.0\selenium-manager\linux\selenium-manager
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\bin\Debug\net7.0\selenium-manager\macos\selenium-manager
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\bin\Debug\net7.0\selenium-manager\windows\selenium-manager.exe
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\bin\Debug\net7.0\SeleniumWebdriver.deps.json
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\bin\Debug\net7.0\SeleniumWebdriver.dll
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\bin\Debug\net7.0\SeleniumWebdriver.pdb
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\SeleniumWebdriver.csproj.AssemblyReference.cache
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\SeleniumWebdriver.GeneratedMSBuildEditorConfig.editorconfig
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\SeleniumWebdriver.AssemblyInfoInputs.cache
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\SeleniumWebdriver.AssemblyInfo.cs
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\SeleniumWebdriver.csproj.CoreCompileInputs.cache
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\SeleniumWebdriver.dll
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\refint\SeleniumWebdriver.dll
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\SeleniumWebdriver.pdb
+E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\SeleniumWebdriver\obj\Debug\net7.0\ref\SeleniumWebdriver.dll

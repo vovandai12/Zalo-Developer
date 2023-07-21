@@ -1,0 +1,62 @@
+2023-07-20 13:18:23.976 +07:00 [ERR] One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+System.AggregateException: One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 504 (Gateway Time-out).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ZaloSDK.Base.ZaloBaseClient.sendHttpGetRequest(String endpoint, Dictionary`2 param, Dictionary`2 header, Dictionary`2 headerCookie) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\Base\ZaloBaseClient.cs:line 41
+   at ZaloSDK.ZaloAppClient.getFriends(String cookie, Int32 offset, Int32 limit, String fields) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\ZaloAppClient.cs:line 34
+   at Zalo_Tool_V1.FormDemo.btngetFriends_Click(Object sender, EventArgs e) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\Zalo-Tool-V1\FormDemo.cs:line 18
+2023-07-20 13:22:51.712 +07:00 [ERR] One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+System.AggregateException: One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 504 (Gateway Time-out).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ZaloSDK.Base.ZaloBaseClient.sendHttpGetRequest(String endpoint, Dictionary`2 param, Dictionary`2 header, Dictionary`2 headerCookie) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\Base\ZaloBaseClient.cs:line 41
+   at ZaloSDK.ZaloAppClient.getFriends(String cookie, Int32 offset, Int32 limit, String fields) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\ZaloAppClient.cs:line 34
+   at Zalo_Tool_V1.FormDemo.btngetFriends_Click(Object sender, EventArgs e) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\Zalo-Tool-V1\FormDemo.cs:line 18
+2023-07-20 13:47:08.950 +07:00 [ERR] One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+System.AggregateException: One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 504 (Gateway Time-out).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ZaloSDK.Base.ZaloBaseClient.sendHttpGetRequest(String endpoint, Dictionary`2 param, Dictionary`2 header) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\Base\ZaloBaseClient.cs:line 41
+   at ZaloSDK.ZaloAppClient.getFriends(String cookie, Int32 offset, Int32 limit, String fields) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\ZaloAppClient.cs:line 34
+   at Zalo_Tool_V1.FormDemo.btngetFriends_Click(Object sender, EventArgs e) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\Zalo-Tool-V1\FormDemo.cs:line 18
+2023-07-20 14:01:11.305 +07:00 [ERR] One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+System.AggregateException: One or more errors occurred. (Response status code does not indicate success: 504 (Gateway Time-out).)
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 504 (Gateway Time-out).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ZaloSDK.Base.ZaloBaseClient.sendHttpGetRequest(String endpoint, Dictionary`2 param, Dictionary`2 header) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\Base\ZaloBaseClient.cs:line 41
+   at ZaloSDK.ZaloAppClient.getFriends(String cookie, Int32 offset, Int32 limit, String fields) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\ZaloAppClient.cs:line 34
+   at Zalo_Tool_V1.FormDemo.btngetFriends_Click(Object sender, EventArgs e) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\Zalo-Tool-V1\FormDemo.cs:line 18
+2023-07-20 14:01:14.029 +07:00 [INF] Application start
+2023-07-20 14:46:24.925 +07:00 [ERR] One or more errors occurred. (Response status code does not indicate success: 405 (HTTP method GET is not supported by this URL).)
+System.AggregateException: One or more errors occurred. (Response status code does not indicate success: 405 (HTTP method GET is not supported by this URL).)
+ ---> System.Net.Http.HttpRequestException: Response status code does not indicate success: 405 (HTTP method GET is not supported by this URL).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at ZaloSDK.Base.ZaloBaseClient.sendHttpGetRequest(String endpoint, Dictionary`2 param, Dictionary`2 header) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\Base\ZaloBaseClient.cs:line 41
+   at ZaloSDK.ZaloAppClient.getAccessToken(String secretKey) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\ZaloSDK\ZaloAppClient.cs:line 23
+   at Zalo_Tool_V1.FormDemo.btngetAccessToken_Click(Object sender, EventArgs e) in E:\Zalo Api Developer\Zalo-Developer\ZaloDeveloper\Zalo-Tool-V1\FormDemo.cs:line 31
+2023-07-20 14:46:29.081 +07:00 [INF] Application start
+2023-07-20 21:39:37.998 +07:00 [INF] Application start
+2023-07-20 21:40:34.886 +07:00 [INF] Application start
+2023-07-20 21:50:56.314 +07:00 [INF] Application start
+2023-07-20 21:53:15.763 +07:00 [INF] Application start
+2023-07-20 21:57:40.677 +07:00 [INF] Application start

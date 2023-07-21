@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lI1x02HncMPXznpjuGJGK180FBNJVv64gqbkoQvL5H+ZbBcfva3maty16lvnzMwt+1zMe6P0m1YrLoacQlnHHQ==",
+  "success": true,
+  "projectFilePath": "E:\\Zalo Api Developer\\Zalo-Developer\\ZaloDeveloper\\SeleniumWebdriver\\SeleniumWebdriver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAI\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\DAI\\.nuget\\packages\\selenium.support\\4.10.0\\selenium.support.4.10.0.nupkg.sha512",
+    "C:\\Users\\DAI\\.nuget\\packages\\selenium.webdriver\\4.10.0\\selenium.webdriver.4.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}
