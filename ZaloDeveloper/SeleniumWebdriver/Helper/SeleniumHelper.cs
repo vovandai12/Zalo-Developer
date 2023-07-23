@@ -14,23 +14,30 @@ namespace SeleniumWebdriver.Helper
         {
             try
             {
-                if (imageUrl.StartsWith("data:"))
+                if (!imageUrl.Contains("data"))
                 {
-                    string[] parts = imageUrl.Split(',');
-                    if (parts.Length != 2)
+                    HttpClient httpClient = new HttpClient();
+                    HttpResponseMessage response = httpClient.GetAsync(imageUrl).Result;
+                    if (response.IsSuccessStatusCode)
                     {
-                        return null;
+                        return response.Content.ReadAsByteArrayAsync().Result;
                     }
-                    string imageData = parts[1];
-                    byte[] imageBytes = Convert.FromBase64String(imageData);
-                    return imageBytes;
                 }
-                HttpClient httpClient = new HttpClient();
-                HttpResponseMessage response = httpClient.GetAsync(imageUrl).Result;
-                if (response.IsSuccessStatusCode)
+                else
                 {
-                    return response.Content.ReadAsByteArrayAsync().Result;
+                    if (imageUrl.StartsWith("data:"))
+                    {
+                        string[] parts = imageUrl.Split(',');
+                        if (parts.Length != 2)
+                        {
+                            return null;
+                        }
+                        string imageData = parts[1];
+                        byte[] imageBytes = Convert.FromBase64String(imageData);
+                        return imageBytes;
+                    }
                 }
+                
             }
             catch (IOException ex)
             {

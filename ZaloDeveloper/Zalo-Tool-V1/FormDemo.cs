@@ -1,9 +1,8 @@
 ﻿using Newtonsoft.Json.Linq;
 using OpenQA.Selenium;
-using Serilog;
-using System.Net;
 using SeleniumWebdriver;
 using SeleniumWebdriver.Model;
+using Serilog;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Zalo_Tool_V1
@@ -77,9 +76,9 @@ namespace Zalo_Tool_V1
         private void button5_Click(object sender, EventArgs e)
         {
             ZaloUserProfile zaloUserProfile = ZaloController.GetZaloUserProfile(driver);
-            MemoryStream stream = new MemoryStream(zaloUserProfile.avatar);
-            pictureBox1.Image = Image.FromStream(stream);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            //MemoryStream stream = new MemoryStream(zaloUserProfile.avatar);
+            //pictureBox1.Image = Image.FromStream(stream);
+            //pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             listBox1.Items.Add(zaloUserProfile.fullName);
                 listBox1.Items.Add(zaloUserProfile.phone);
             listBox1.Items.Add(zaloUserProfile.gender);

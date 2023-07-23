@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Support.UI;
 using SeleniumWebdriver.Helper;
 using SeleniumWebdriver.Model;
+using System.Xml.Linq;
 
 namespace SeleniumWebdriver
 {
@@ -34,9 +35,26 @@ namespace SeleniumWebdriver
         {
             SeleniumController.GoToUrl(driver, BaseUrl.ZALO_ME);
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
-            wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath(@"//div[@class='rel zavatar-container clickable']")));
-            IWebElement element = SeleniumController.FindElementByXPath(driver, @"//div[@class='rel zavatar-container clickable']");
-            SeleniumController.Click(element);
+            try
+            {
+                IWebElement element = wait.Until(driver =>
+                {
+                    try
+                    {
+                        IWebElement element = SeleniumController.FindElementByXPath(driver, @"//div[@class='rel zavatar-container clickable']");
+                        return element.Displayed ? element : null;
+                    }
+                    catch (NoSuchElementException)
+                    {
+                        return null;
+                    }
+                });
+                if (element != null)
+                {
+                    SeleniumController.Click(element);
+                }
+            }
+            finally{}
             List<IWebElement> list = SeleniumController.FindAllElementByXPath(driver, @"//div[@class='truncate flx-1']");
             foreach (var item in list)
             {
@@ -46,8 +64,6 @@ namespace SeleniumWebdriver
                     break;
                 }
             }
-            IWebElement elementFather = SeleniumController.FindElementByXPath(driver, @"//div[@class='zavatar zavatar-xxl zavatar-single flx flx-al-c flx-center rel clickable disableDrag']");
-            byte[] avatar = SeleniumController.GetByteImageByFather(elementFather, @"img");
             IWebElement elementFullName = SeleniumController.FindElementByXPath(driver, @"//div[@class='truncate friend-profile__display-name']");
             string fullName = SeleniumController.GetTextElement(elementFullName);
             IWebElement userProfile = SeleniumController.FindElementByXPath(driver, @"//div[@class='user-profile-details']");
@@ -57,7 +73,6 @@ namespace SeleniumWebdriver
 
             ZaloUserProfile result = new()
             {
-                avatar = avatar,
                 fullName = fullName,
                 phone = phone,
                 gender = gender.Equals("Nam") ? true : false,

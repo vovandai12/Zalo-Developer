@@ -43,10 +43,6 @@
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.10.0, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.10.0, )"
             }
           },
           "imports": [
@@ -112,6 +108,14 @@
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

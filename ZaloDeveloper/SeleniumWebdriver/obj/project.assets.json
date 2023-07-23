@@ -120,8 +120,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Selenium.Support >= 4.10.0",
-      "Selenium.WebDriver >= 4.10.0"
+      "Selenium.Support >= 4.10.0"
     ]
   },
   "packageFolders": {
@@ -164,10 +163,6 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "Selenium.Support": {
-            "target": "Package",
-            "version": "[4.10.0, )"
-          },
-          "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.10.0, )"
           }

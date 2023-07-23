@@ -2,11 +2,6 @@
 using OpenQA.Selenium;
 using SeleniumWebdriver.Exception;
 using SeleniumWebdriver.Helper;
-using System;
-using System.Xml.Linq;
-using static System.Net.Mime.MediaTypeNames;
-using System.IO;
-using System.Collections.Generic;
 
 namespace SeleniumWebdriver
 {
