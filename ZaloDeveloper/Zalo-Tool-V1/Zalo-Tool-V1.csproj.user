@@ -4,6 +4,9 @@
     <Compile Update="FAccount.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FDevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FLogin.cs">
       <SubType>Form</SubType>
     </Compile>

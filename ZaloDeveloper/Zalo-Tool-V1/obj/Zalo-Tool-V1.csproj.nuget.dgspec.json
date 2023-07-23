@@ -105,6 +105,22 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "dependencies": {
+            "AdvancedSharpAdbClient": {
+              "target": "Package",
+              "version": "[2.5.7, )"
+            },
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.7.0.5276, )"
+            },
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.7.0.5276, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.9, )"
@@ -132,6 +148,10 @@
             "Serilog.Sinks.File": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "ZedGraph": {
+              "target": "Package",
+              "version": "[5.1.7, )"
             }
           },
           "imports": [

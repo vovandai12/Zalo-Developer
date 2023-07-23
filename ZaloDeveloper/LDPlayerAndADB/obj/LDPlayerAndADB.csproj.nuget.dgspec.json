@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Zalo Api Developer\\Zalo-Developer\\ZaloDeveloper\\LDPlayerAndADB\\LDPlayerAndADB.csproj": {}
+  },
+  "projects": {
+    "E:\\Zalo Api Developer\\Zalo-Developer\\ZaloDeveloper\\LDPlayerAndADB\\LDPlayerAndADB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Zalo Api Developer\\Zalo-Developer\\ZaloDeveloper\\LDPlayerAndADB\\LDPlayerAndADB.csproj",
+        "projectName": "LDPlayerAndADB",
+        "projectPath": "E:\\Zalo Api Developer\\Zalo-Developer\\ZaloDeveloper\\LDPlayerAndADB\\LDPlayerAndADB.csproj",
+        "packagesPath": "C:\\Users\\DAI\\.nuget\\packages\\",
+        "outputPath": "E:\\Zalo Api Developer\\Zalo-Developer\\ZaloDeveloper\\LDPlayerAndADB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AdvancedSharpAdbClient": {
+              "target": "Package",
+              "version": "[2.5.7, )"
+            },
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.7.0.5276, )"
+            },
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.7.0.5276, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "ZedGraph": {
+              "target": "Package",
+              "version": "[5.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -5,7 +5,9 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zalo-Tool-V1", "Zalo-Tool-V1\Zalo-Tool-V1.csproj", "{30B4CB46-E363-4E24-99FF-40A143A64F06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebdriver", "SeleniumWebdriver\SeleniumWebdriver.csproj", "{AF1FB722-ACC6-4B7A-B522-112D73021AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumWebdriver", "SeleniumWebdriver\SeleniumWebdriver.csproj", "{AF1FB722-ACC6-4B7A-B522-112D73021AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDPlayerAndADB", "LDPlayerAndADB\LDPlayerAndADB.csproj", "{69A2A55C-3EE2-46F7-8CA0-AF16F15D2DF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AF1FB722-ACC6-4B7A-B522-112D73021AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF1FB722-ACC6-4B7A-B522-112D73021AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF1FB722-ACC6-4B7A-B522-112D73021AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A2A55C-3EE2-46F7-8CA0-AF16F15D2DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A2A55C-3EE2-46F7-8CA0-AF16F15D2DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A2A55C-3EE2-46F7-8CA0-AF16F15D2DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A2A55C-3EE2-46F7-8CA0-AF16F15D2DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
